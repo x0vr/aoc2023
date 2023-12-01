@@ -5,7 +5,7 @@ a1b2c3d4e5f
 treb7uchet
 `;
 
-export const finalTaskData01 = `
+export const finalTaskData = `
 9dlvndqbddghpxc
 rtkrbtthree8sixfoureight6
 fdxrqmfxdkstpmcj7lmphgsmqqnmjrtwo3tcbc
@@ -1006,4 +1006,14 @@ twodn8
 one5six913lbrcc
 foureightmppchbgz8lqbzqbjztwo7cksqxns
 zvhzgfpkhkone93nine
+`;
+
+export const exampleData02 = `
+two1nine
+eightwothree
+abcone2threexyz
+xtwone3four
+4nineeightseven2
+zoneight234
+7pqrstsixteen
 `;
