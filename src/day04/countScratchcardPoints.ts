@@ -1,8 +1,5 @@
-import {
-	getCorrectNumbers,
-	getDataLines,
-	getNumbersFromLine,
-} from '../helpers';
+import { getDataLines } from '../helpers';
+import { getCorrectNumbers, getNumbersFromLine } from './helpers';
 
 export function countScratchcardPoints(input: string) {
 	const dataLines = getDataLines(input);
