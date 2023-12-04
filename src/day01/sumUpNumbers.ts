@@ -1,3 +1,4 @@
+import { getDataLines } from '../helpers';
 import { extractNumbersFromString } from './extractNumbersFromString';
 
 export function sumUpNumbers(
@@ -6,10 +7,7 @@ export function sumUpNumbers(
 ) {
 	const { extractNumbersFromString } = _dependencies;
 
-	const lines = input
-		.split('\n')
-		.map((e) => e.trim())
-		.filter((e) => e);
+	const lines = getDataLines(input);
 
 	let sum = 0;
 	for (const line of lines) {
